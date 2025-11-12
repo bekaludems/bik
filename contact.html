@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bekman</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+      body{
+        background-image: url("photo/bke.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        width: 100vw;
+      }
+      body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+         .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+   h1 {
+          font-size: 2.5rem;
+          margin-bottom: 10px;
+         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    .subtitle {
+           font-size: 1.2rem;
+           margin-bottom: 40px;
+          opacity: 0.9;
+      }
+        .social-icons {
+          display: flex;
+            justify-content: center;
+          flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .icon-container {
+          display: flex;
+         flex-direction: column;
+         align-items: center;
+        transition: transform 0.3s ease;
+        }
+        .icon-container:hover {
+            transform: translateY(-10px);
+        }
+ .icon-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            font-size: 2.5rem;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+              }
+        .telegram {
+            background: linear-gradient(135deg, #0088cc, #34b7f1);
+        }
+        .tiktok {
+            background: linear-gradient(135deg, #000000, #25f4ee, #fe2c55);
+        } 
+        .email {
+            background: linear-gradient(135deg, #ea4335, #fbbc05);
+        }
+        .icon-link:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+        }
+        .icon-label {
+            margin-top: 15px;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+    .code-section {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 25px;
+            margin-top: 30px;
+            text-align: left;
+        }
+    .code-section h2 {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+ pre {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+ .note {
+            margin-top: 20px;
+            font-style: italic;
+            opacity: 0.8;
+        }
+   @media (max-width: 600px) {
+   .container {
+                padding: 25px;
+            }      
+            h1 {
+                font-size: 2rem;
+            }   
+      .social-icons {
+                gap: 20px;
+            } 
+     .icon-link {
+                width: 80px;
+                height: 80px;
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+ <body style="background-color: rgb(45, 45, 110);">
+             <a href="home.html">Home</a> 
+           <a href="about.html">About</a>
+            <a href="educational background.html">Educational background</a> 
+             <a href="projects.html">Projects</a>
+      <a href="skills.html" >Skills</a>
+        <a href="contact.html" id="act">Contact</a>
+         <a href="educational background.html">Educational background</a>
+            <a href="projects.html">Projects</a>
+      <a href="skills.html" >Skills</a>
+        <a href="about.html">About</a>
+        <a href="home.html">Home</a>
+                  <center>
+  <form class="form"> 
+     <h1 style="text-align: center; font-size: 80px; color: white;">contact me</h1>
+    <fieldset id="field">
+ <legend id="leg"><b> <h2>log in</h2></b></legend>
+    <input class="input" type="text" 
+placeholder="Name">
+    <input class="input" type="text" 
+    placeholder="E-Mail I.D.">
+<<textarea class="textarea"
+placeholder="Enter message"></textarea>
+<button type="submit"
+class="button"><b>Submit</b></button>
+    </fieldset>
+</form>
+</center>
+   <div class="container">
+    <h1>Social Media Links</h1>
+    <p class="subtitle">Click on the icons below to contact with me</p>
+      <div class="social-icons">
+     <div class="icon-container">
+      <a href="https://t.me/AekalMoneytalks" class="icon-link telegram" target="_blank">
+        <i class="fab fa-telegram"></i>
+           </a>
+    <span class="icon-label">Telegram</span>
+       </div>
+            <div class="icon-container">
+  <a href="https://www.tiktok.com/@bekadreams2026" class="icon-link tiktok" target="_blank">
+         <i class="fab fa-tiktok"></i>
+</a>
+        <span class="icon-label">TikTok</span>
+            </div>
+        <div class="icon-container">
+             <a href="mailto:bekalu0904@gmail.com" class="icon-link email">
+       <i class="fas fa-envelope"></i>
+                </a>
+       <span class="icon-label">Email</span>
+              </div>
+        </div>
+    </div>
+    <script>
+       document.querySelectorAll('.icon-link').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+             this.style.transform = 'scale(1.1)';
+            });       
+            link.addEventListener('mouseleave', function() {
+          this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
